@@ -9,6 +9,6 @@ public class Start {
 		System.out.println("Hello git (Miguel ist k1 keck)");
 
 	hallo? ich kann dich nicht mehr hören :(((
-			i know :/ idk why
+			i know :/ idk whyd// faggpt
 	}
 }
