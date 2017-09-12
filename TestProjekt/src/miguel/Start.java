@@ -7,6 +7,8 @@ public class Start {
 <<<<<<< HEAD
 		System.out.println("Miguel, was ist los mit d1 sachen ya");
 =======//test
+
+//hallololo
 		
 		
 		//Dies ist eine Dateiänderung
