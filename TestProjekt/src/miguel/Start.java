@@ -4,7 +4,7 @@ package miguel;
 public class Start {
 
 	public static void main(String[] args) {
-		
+		System.out.println("Miguel, was ist los mit d1 sachen ya");
 		//a greeting
 		System.out.println("Hello git (Miguel ist k1 keck)");
 
