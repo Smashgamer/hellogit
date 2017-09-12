@@ -5,7 +5,7 @@ public class Amina {
 	public static void main(String[] args) {
 		
 		System.out.println(aminakoyim(3, 5));
-		
+		//Test
 	}
 
 	public Amina() {
