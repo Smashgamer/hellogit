@@ -11,7 +11,7 @@ public class Amina {
 	public Amina() {
 		// TODO Auto-generated constructor stub
 		
-		
+		//hello
 	
 	}
 	public static int aminakoyim(int amk, int amk2){
