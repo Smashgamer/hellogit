@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Partyplaner</title>
+	<script name="jquery/jquery.js" library="primefaces"></script>
+
+
+
+	<style>
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	height: 60px;
+	width: 100%;
+	background: #16A5C7;
+	line-height: 60px;
+	color: white;
+}
+
+div a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	padding-right: 100px;
+}
+
+div ul li {
+	list-style-type: none;
+	display: block;
+	padding: 15px;
+	border-bottom: 1px solid #236D7F;
+}
+
+div ul li:hover {
+	background: #4097AD;
+	transition: linear all 0.40;
+	margin-left: 10px;
+}
+
+div ul li a:hover {
+	color: black;
+}
+
+.selected {
+	background: white;
+}
+
+.selected a {
+	color: black;
+}
+
+body {
+	background-color: #eee;
+	color: #fff;
+	font: 14px/1.3 Arial, sans-serif;
+}
+
+.container {
+	color: #000;
+	margin: 20px auto;
+	position: absolute;
+	width: 900px;
+	margin-left: 480px;
+	margin-top: 150px;
+}
+
+#slideshow {
+	border: 1px #000 solid;
+	box-shadow: 4px 6px 6px #444444;
+	display: block;
+	margin: 0 auto;
+	height: 700px;
+	width: 1200px;
+}
+
+.container .slides {
+	display: none;
+}
+
+.test {
+	width: 240px;
+	height: 966px;
+	background: #1A8DA9;
+}
+
+.test2 {
+	position: absolute;
+	margin-right: 900;
+	margin-top: 200px;
+}
+</style>
+	<script>
+		
+	</script>
+</h:head>
+
+<h:body>
+
+
+	<section class="test2">
+
+		<h:form>
+			<!-- 	<p:calendar value="#{calendarManagedBean.date}"  ></p:calendar> -->
+			<p:growl id="msgs" showDetail="true" />
+
+			<p:panel header="Kategorie" style="margin-bottom:10px;">
+				<h:panelGrid columns="2" cellpadding="5">
+					<p:outputLabel for="country" />
+					<p:selectOneMenu id="country" value="#{dropdownView.country}"
+						style="width:150px">
+						<p:ajax listener="#{dropdownView.onCountryChange}" />
+						<f:selectItem itemLabel="" itemValue="" noSelectionOption="true" />
+						<f:selectItems value="#{dropdownView.countries}" />
+					</p:selectOneMenu>
+				</h:panelGrid>
+			</p:panel>
+			
+					<p:growl id="msgs2" showDetail="true" />
+
+			<p:panel header="Kategorie" style="margin-bottom:10px;">
+				<h:panelGrid columns="2" cellpadding="5">
+					
+					<p:selectOneMenu id="city" value="#{dropdownView.cities}"
+						style="width:150px">
+						
+						<f:selectItem itemLabel="" itemValue="" noSelectionOption="true" />
+						<f:selectItems value="#{dropdownView.cities}" />
+					</p:selectOneMenu>
+				</h:panelGrid>
+			</p:panel>
+
+		</h:form>
+
+	</section>
+	<div class="container">
+
+
+
+
+		<div class="slides">
+			<img src="test7.jpg" /> <img src="party2.jpg" /> <img
+				src="party3.jpg" /> <img src="party4.jpg" />
+		</div>
+		<canvas id="slideshow" width="900" height="300"></canvas>
+	</div>
+	<h1>Logo kommt hierhin!</h1>
+	<script>
+		
+	</script>
+	<div class="test">
+		<ul>
+
+		</ul>
+	</div>
+</h:body>
+
+
+</html>
