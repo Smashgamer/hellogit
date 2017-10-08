@@ -46,8 +46,6 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-
-
 .logo {
 	
 }
@@ -226,4 +224,246 @@ body {
 	.footer-distributed form button {
 		float: none;
 	}
+}
+
+#ud_slider {
+	width: 1200px;
+	height: 700px;
+	margin: 150px auto auto auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.klasse_1 {
+	animation: UD_KLASSE_1 infinite 10000ms;
+	-moz-animation: animation: UD_KLASSE_1 infinite 10000ms;
+	-ms-animation: animation: UD_KLASSE_1 infinite 10000ms;
+	-o-animation: animation: UD_KLASSE_1 infinite 10000ms;
+	-webkit-animation: animation: UD_KLASSE_1 infinite 10000ms;
+}
+
+.klasse_2 {
+	animation: UD_KLASSE_2 infinite 10000ms;
+	-moz-animation: animation: UD_KLASSE_2 infinite 10000ms;
+	-ms-animation: animation: UD_KLASSE_2 infinite 10000ms;
+	-o-animation: animation: UD_KLASSE_2 infinite 10000ms;
+	-webkit-animation: animation: UD_KLASSE_2 infinite 10000ms;
+}
+
+.klasse_3 {
+	animation: UD_KLASSE_3 infinite 10000ms;
+	-moz-animation: animation: UD_KLASSE_3 infinite 10000ms;
+	-ms-animation: animation: UD_KLASSE_3 infinite 10000ms;
+	-o-animation: animation: UD_KLASSE_3 infinite 10000ms;
+	-webkit-animation: animation: UD_KLASSE_3 infinite 10000ms;
+}
+
+.klasse_4 {
+	animation: UD_KLASSE_4 infinite 10000ms;
+	-moz-animation: animation: UD_KLASSE_4 infinite 10000ms;
+	-ms-animation: animation: UD_KLASSE_4 infinite 10000ms;
+	-o-animation: animation: UD_KLASSE_4 infinite 10000ms;
+	-webkit-animation: animation: UD_KLASSE_4 infinite 10000ms;
+}
+
+@
+-webkit-keyframes UD_KLASSE_1 { 0% {
+	opacity: 1;
+}
+
+20%
+{
+opacity
+:
+1;
+}
+25%
+{
+opacity
+:
+0;
+}
+95%
+{
+opacity
+:
+0;
+}
+}
+@
+-webkit-keyframes UD_KLASSE_2 { 0% {
+	opacity: 0;
+}
+
+20%
+{
+opacity
+:
+0;
+}
+25%
+{
+opacity
+:
+1;
+}
+45%
+{
+opacity
+:
+1;
+}
+50%
+{
+opacity
+:
+0;
+}
+100%
+{
+opacity
+:
+0;
+}
+}
+@
+-webkit-keyframes UD_KLASSE_3 { 0% {
+	opacity: 0;
+}
+
+45%
+{
+opacity
+:
+0;
+}
+50%
+{
+opacity
+:
+1;
+}
+70%
+{
+opacity
+:
+1;
+}
+75%
+{
+opacity
+:
+0;
+}
+100%
+{
+opacity
+:
+0;
+}
+}
+@
+-webkit-keyframes UD_KLASSE_4 { 0% {
+	opacity: 0;
+}
+70%
+{
+opacity
+:
+0;
+}
+75%
+{
+opacity
+:
+1;
+}
+95%
+{
+opacity
+:
+1;
+}
+100%
+{
+opacity
+:
+0;
+}
+}
+
+.dropbtn {
+    background-color: #292c2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+  
+}
+
+.dropbtn2 {
+    background-color: #292c2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+.dropbtn3 {
+    background-color: #292c2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+.dropbtn4 {
+    background-color: #292c2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+.dropdown {
+ 
+    display: inline-block;
+}
+
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    
+    }
+   
+#container {
+width:960px;
+}
+.header, .navigation {
+width: 100%;
+float:left;
+height: 150px;
+}
+.sidebar {
+width: 200px;
+float:left;
+min-height: 500px;
 }
